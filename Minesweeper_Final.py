@@ -1,8 +1,7 @@
 from pandas import DataFrame # , read_excel
 from functools import reduce
 from random import sample  # For choosing random Cells on the Board to hold cells. I think this is less workload than random.sample() as it fumbles more integers (in C) while doing less sequence & function calls...
-from sys import path; path.append("https://github.com/Physina/PheenXTension.git")
-from PhyXTension_Pack.WhenXTension import confirmor, display_txt, autoLog, current_dt
+from WhenXTension import confirmor, display_txt, autoLog, current_dt
 
 
 #########################################################################################
